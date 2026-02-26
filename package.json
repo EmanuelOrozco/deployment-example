@@ -2,22 +2,13 @@
   "name": "deployment-example",
   "version": "1.0.0",
   "description": "example for deployment",
-  "keywords": [
-    "js"
-  ],
-  "homepage": "https://github.com/EmanuelOrozco/deployment-example#readme",
-  "bugs": {
-    "url": "https://github.com/EmanuelOrozco/deployment-example/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EmanuelOrozco/deployment-example.git"
-  },
-  "license": "ISC",
   "author": "EmanuelOrozco",
-  "type": "commonjs",
-  "main": "index.js",
+  "license": "ISC",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
   }
 }
